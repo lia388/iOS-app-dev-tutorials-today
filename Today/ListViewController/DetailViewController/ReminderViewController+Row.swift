@@ -9,6 +9,7 @@ import UIKit
 
 extension ReminderViewController {
     enum Row: Hashable {
+        case header(String)
         case viewDate
         case viewNotes
         case viewTime
@@ -16,7 +17,7 @@ extension ReminderViewController {
         
         var imageName: String? {
             switch self {
-            case .viewDate: return "calender.circle"
+            case .viewDate: return "calendar.circle"
             case .viewNotes: return "square.and.pencil"
             case .viewTime: return "clock"
             default: return nil
