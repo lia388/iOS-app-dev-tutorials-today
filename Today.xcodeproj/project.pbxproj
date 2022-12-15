@@ -21,6 +21,7 @@
 		0A4DDB132937F44300BA3EA1 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4DDB122937F44300BA3EA1 /* ReminderListViewController+DataSource.swift */; };
 		0A7BC80329418A9A006B444F /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BC80229418A9A006B444F /* ReminderViewController.swift */; };
 		0A7BC80629418E2D006B444F /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7BC80529418E2D006B444F /* ReminderViewController+Row.swift */; };
+		0AB9E981294AD28C0002050A /* ReminderViewController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9E980294AD28C0002050A /* ReminderViewController+CellConfiguration.swift */; };
 		0AEC107F2946C8FF00650263 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC107E2946C8FF00650263 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		0A4DDB122937F44300BA3EA1 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		0A7BC80229418A9A006B444F /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		0A7BC80529418E2D006B444F /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		0AB9E980294AD28C0002050A /* ReminderViewController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+CellConfiguration.swift"; sourceTree = "<group>"; };
 		0AEC107E2946C8FF00650263 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				0A7BC80229418A9A006B444F /* ReminderViewController.swift */,
+				0AB9E980294AD28C0002050A /* ReminderViewController+CellConfiguration.swift */,
 				0A7BC80529418E2D006B444F /* ReminderViewController+Row.swift */,
 				0AEC107E2946C8FF00650263 /* ReminderViewController+Section.swift */,
 			);
@@ -194,6 +197,7 @@
 				0A2DD5AC293EE5220004999F /* ReminderListViewController+Actions.swift in Sources */,
 				0A7BC80329418A9A006B444F /* ReminderViewController.swift in Sources */,
 				0A4DDB0E2937EAB900BA3EA1 /* Date+Today.swift in Sources */,
+				0AB9E981294AD28C0002050A /* ReminderViewController+CellConfiguration.swift in Sources */,
 				0A28D758293310A500E2ADA0 /* AppDelegate.swift in Sources */,
 				0A7BC80629418E2D006B444F /* ReminderViewController+Row.swift in Sources */,
 				0A2DD5AA293EE3A00004999F /* ReminderDoneButton.swift in Sources */,
